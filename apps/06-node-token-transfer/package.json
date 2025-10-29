@@ -1,0 +1,13 @@
+{
+  "name": "base-token-transfer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "send": "node send.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "ethers": "^6.11.1"
+  }
+}
