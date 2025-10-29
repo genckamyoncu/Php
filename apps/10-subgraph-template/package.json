@@ -1,0 +1,13 @@
+{
+  "name": "base-subgraph-template",
+  "version": "1.0.0",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "deploy": "graph deploy --product hosted-service $SUBGRAPH_NAME"
+  },
+  "devDependencies": {
+    "@graphprotocol/graph-cli": "^0.53.0",
+    "@graphprotocol/graph-ts": "^0.33.0"
+  }
+}
